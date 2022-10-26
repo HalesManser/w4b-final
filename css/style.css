@@ -1,0 +1,203 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0%;
+    padding:0%
+    
+}
+/* this is the styling for the over all page */
+/* this is the start of navigation bar styling */
+nav{
+    width: 100%;
+    height: 60px;
+    position: sticky ;
+    top: 0%;
+    z-index:999; 
+    background: rgb(24, 144, 92);
+    background: linear-gradient(56deg, rgb(14, 133, 109) 13%, rgb(10, 123, 42) 53%, rgb(6, 114, 40) 82%, rgba(19, 138, 6, 0.859) 100%);
+}
+.logo{
+    float: left;
+    margin: 5px 20px
+}
+nav ul{
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    height: 50;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px 20px;
+    
+    
+}
+nav ul li:hover{
+    background-color: rgba(54, 201, 118, 0.674);
+    height: 0px;
+}
+nav ul li:active{
+    background-color: rgba(27, 68, 6, 0.942);
+}
+nav ul li a{
+    color: rgb(16, 29, 2);
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+nav ul li a:hover{
+    color: rgb(123, 7, 7);
+}
+nav ul li a:active{
+    color: floralwhite;
+}
+/* end of navigation bar */
+
+/* Hero section */
+main{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    background-image: url(/images/FLORALBEAU.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ .herotext{
+     color: rgba(0, 0, 0, 0.526);
+     font-size: 12px;
+     text-align:end;
+     top: 90%;
+ }
+ /* hero section */
+
+ /* intro section */
+ .introp{
+    font-size: 29px;
+    text-transform: bold;
+    margin: 20px;
+    padding: 20px;
+ }
+/* intro section */
+ /*our services  */
+section{
+    height: 340px;
+    width: 65%;
+    float: left;
+    background-color: rgb(165, 213, 150);
+    border: solid;
+}
+section h4{
+    font-size: 25px;
+    text-align: center;
+}
+
+section ul{
+    font-size: medium;
+    text-align: center;
+}
+section ul a{
+    color: black;
+    text-decoration: none;
+}
+.servicesbackground{
+
+}
+.lessons{
+    margin: 20px;
+
+}
+.photo{
+    margin: 20px;
+}
+.leasing{
+    margin: 20px;
+}
+.care{
+    margin: 20px;
+}
+/* services section end */
+/* Amenities section start */
+article{
+    height: 340px;
+    width: 65%;
+    float: left;
+    background-color: aliceblue;
+    border: solid;
+}
+article h5{
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    
+}
+article ul a{
+    color: black;
+    text-decoration: none;
+}
+.playground{
+    margin: 20px;
+}
+.pool{
+    margin: 20px;
+}
+.kitchen{
+    margin: 20px;
+}
+.tack{
+    margin: 20px;
+}
+
+article ul{
+    text-align: center;
+}
+/* amenitites section end */
+/* footer start */
+footer{
+    background-color: #272727;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+         
+}
+
+footer li{
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+.icons a{
+    background: #234b28;
+    color: #379e44;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 100%;
+    display: flex;
+}
+.icons a:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.menu a{
+    color: #ffffff;
+    text-transform: capitalize;
+    
+}
+.menu a:hover{
+    color: #1b5623;
+    transition: 0.5s;
+}
+.footerbottom{
+    background: linear-gradient(56deg, rgb(14, 133, 109) 13%, rgb(10, 123, 42) 53%, rgb(6, 114, 40) 82%, rgba(19, 138, 6, 0.859) 100%);
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+/* end of Footer */
