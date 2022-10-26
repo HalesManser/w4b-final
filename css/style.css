@@ -58,7 +58,7 @@ main{
     width: 100%;
     height: 500px;
     background-color: black;
-    background-image: url(../images/FLORALBEAU.jpg);
+    background-image: url(.../images/FLORALBEAU.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
