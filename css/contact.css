@@ -80,6 +80,9 @@ footer{
     margin-top: auto;
     bottom: 0;
     width: 100%;
+    clear: both;
+    position: sticky;
+         
 }
 
 footer li{
@@ -104,16 +107,17 @@ footer li{
 .menu a{
     color: #ffffff;
     text-transform: capitalize;
+    
 }
 .menu a:hover{
     color: #1b5623;
     transition: 0.5s;
 }
-
 .footerbottom{
     background: linear-gradient(56deg, rgb(14, 133, 109) 13%, rgb(10, 123, 42) 53%, rgb(6, 114, 40) 82%, rgba(19, 138, 6, 0.859) 100%);
     color: #ffffff;
     padding: 15px;
     margin-top: 30px;
     text-transform: capitalize;
+    bottom: 0%;
 }

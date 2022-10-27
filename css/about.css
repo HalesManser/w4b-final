@@ -78,8 +78,9 @@ body {
     line-height: 1.5;
 }
 .horses{
-    margin: 100px;
-    padding: 50px;
+    margin-left: 250px;
+    padding: 0px;
+    left: 27%;
 }
 /* this is the end of my Text colums */
 h3{
@@ -291,9 +292,10 @@ footer{
     text-transform: uppercase;
     padding-top: 30px;
     margin-top: auto;
-    bottom: 0;
+    bottom: 0%;
     width: 100%;
-    clear: both;
+  
+    
 }
 
 footer li{
@@ -330,6 +332,8 @@ footer li{
     padding: 15px;
     margin-top: 30px;
     text-transform: capitalize;
+    
+    
 }
 .footerbottom{
     background: linear-gradient(56deg, rgb(14, 133, 109) 13%, rgb(10, 123, 42) 53%, rgb(6, 114, 40) 82%, rgba(19, 138, 6, 0.859) 100%);
@@ -337,11 +341,11 @@ footer li{
     padding: 15px;
     margin-top: 30px;
     text-transform: capitalize;
+    bottom: 0%;
+    
 }
 
-/* lessons Photo by Alexander Dummer: https://www.pexels.com/photo/girl-riding-black-horse-1364073/ */
-/* care guide Photo by Jean Alves: https://www.pexels.com/photo/person-feeding-horse-2183530/ */
-/* pool Photo by Jean Alves: https://www.pexels.com/photo/person-feeding-horse-2183530/ */
-/* tack room Photo by TheOther Kev: https://www.pexels.com/photo/silhouette-of-women-feeding-horses-3149048/ */
-/* playground Photo by Ksenia Chernaya: https://www.pexels.com/photo/a-boy-playing-in-the-playground-8535897/ */
-/* outdoor kitchen Photo by Maria Orlova: https://www.pexels.com/photo/kitchen-interior-with-furniture-and-utensils-against-garden-4916166/ */
+
+
+
+
