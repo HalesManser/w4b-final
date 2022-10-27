@@ -71,18 +71,17 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 .textColumns p{
-    column-count: 2;
+    column-count: 3;
     font-family: 'Playfair Display', serif;
     font-size: 16px;
     text-align: justify;
     line-height: 1.5;
 }
-/* this is the end of my Text colums */
-.information{
-    width: 100%;
-    height: 400px;
-
+.horses{
+    margin: 100px;
+    padding: 50px;
 }
+/* this is the end of my Text colums */
 h3{
     font-size: 20px;
     font-weight: bold;
@@ -105,7 +104,7 @@ h3{
     
 }
 .cannonlunge{
-    display:inline-block
+    display:inline-block;
     right: 0%;
 }
 h4{
@@ -115,13 +114,13 @@ h4{
 
 .photo{
     height: auto;
-    width: 60%;
+    width: 50%;
     margin-top: 90px;
-    display:inline-flex
-    border: 3px solid black;
+    display: inline-block;
     text-align: center;
     float: right;
     margin-right: 100px;
+    margin-left: 100px;
 }
 .photo p{
     width:100%;
