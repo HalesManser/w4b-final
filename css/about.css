@@ -77,35 +77,76 @@ body {
     text-align: justify;
     line-height: 1.5;
 }
-.row{
+/* this is the end of my Text colums */
+.information{
     width: 100%;
     height: 400px;
 
 }
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
 .lessons{
-    width: 100%;
     height: auto;
+    width: 50%;
+    margin-top: 90px;
+    display: inline-block;
     text-align: center;
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+    
 }
 .lessons p{
     width: auto;
     height: 100px;
-    float: left;
+    float: right
+    
 }
+.cannonlunge{
+    display:inline-block
+    right: 0%;
+}
+h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .photo{
+    height: auto;
+    width: 60%;
+    margin-top: 90px;
+    display:inline-flex
+    border: 3px solid black;
     text-align: center;
-    width: auto;
-    height: 100px;
+    float: right;
+    margin-right: 100px;
 }
 .photo p{
     width:100%;
     height: 100px;
     text-align: center;
 }
+.beauphoto{
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .lease{
+    height: auto;
+    width: 50%;
+    margin-top: 200px;
+    display: inline-block;
     text-align: center;
-    width: 100%;
-    height: 100px;
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
     
 }
 .lease p{
@@ -113,10 +154,24 @@ body {
     width: 100%;
     height: 100px;
 }
+.umbrella{
+    display: inline-flex;
+    right: 0%;
+}
+
+h6{
+    font-size: 20px;
+    font-weight: bold;
+}
 .care{
+    height: auto;
+    width: 50%;
+    margin-top: 200px;
+    display: inline-block;
     text-align: center;
-    width: 100%;
-    height: 100px;
+    float: right;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 .care p{
     text-align: center;
@@ -124,7 +179,110 @@ body {
     height: 100px;
     
 }
-/* This is the end of my text columns  */
+.feeding{
+    display: inline-flex;
+    left: 0%;
+}
+h7{
+    font-size: 20px;
+    font-weight: bold;
+}
+.pool{
+    height: auto;
+    width: 50%;
+    margin-top: 200px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.pool p{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    
+}
+.notmypool{
+    display:inline-flex;
+    right: 0px;
+}
+h8{
+    font-size: 20px;
+    font-weight: bold;
+}
+.tack{
+    height: auto;
+    width: 50%;
+    margin-top: 200px;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.tack p{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    
+}
+.notmyroom{
+    display: inline-flex;
+    left: 0;
+}
+h9{
+    font-size: 20px;
+    font-weight: bold;
+}
+.playground{
+    height: auto;
+    width: 50%;
+    margin-top: 200px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.playground p{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    
+}
+.notmyplay{
+    display: inline-flex;
+    right: 0%;
+}
+h10{
+    font-size: 20px;
+    font-weight: bold;
+}
+.kitchen{
+    height: auto;
+    width: 50%;
+    margin-top: 200px;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+.kitchen p{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    
+}
+.notmykitchen{
+    display: inline-flex;
+    left: 0%;
+}
+/* this is the end of my  */
+
+
 
 
 
@@ -134,9 +292,9 @@ footer{
     text-transform: uppercase;
     padding-top: 30px;
     margin-top: auto;
-    position: fixed;
     bottom: 0;
     width: 100%;
+    clear: both;
 }
 
 footer li{
@@ -182,3 +340,9 @@ footer li{
     text-transform: capitalize;
 }
 
+/* lessons Photo by Alexander Dummer: https://www.pexels.com/photo/girl-riding-black-horse-1364073/ */
+/* care guide Photo by Jean Alves: https://www.pexels.com/photo/person-feeding-horse-2183530/ */
+/* pool Photo by Jean Alves: https://www.pexels.com/photo/person-feeding-horse-2183530/ */
+/* tack room Photo by TheOther Kev: https://www.pexels.com/photo/silhouette-of-women-feeding-horses-3149048/ */
+/* playground Photo by Ksenia Chernaya: https://www.pexels.com/photo/a-boy-playing-in-the-playground-8535897/ */
+/* outdoor kitchen Photo by Maria Orlova: https://www.pexels.com/photo/kitchen-interior-with-furniture-and-utensils-against-garden-4916166/ */
