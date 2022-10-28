@@ -6,6 +6,8 @@
     
 }
 /* this is the styling for the over all page */
+
+
 /* this is the start of navigation bar styling */
 nav{
     width: 100%;
@@ -79,6 +81,8 @@ main{
     padding: 20px;
  }
 /* intro section */
+
+
  /*our services  */
 section{
     height: 340px;
@@ -117,6 +121,8 @@ section ul a{
     margin: 20px;
 }
 /* services section end */
+
+
 /* Amenities section start */
 article{
     height: 340px;
@@ -152,6 +158,8 @@ article ul{
     text-align: center;
 }
 /* amenitites section end */
+
+
 /* footer start */
 footer{
     background-color: #272727;
