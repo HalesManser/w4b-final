@@ -49,7 +49,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
-    padding-bottom: 100px;
+    
 }
   /* This is the start of my about horses  */
 
@@ -295,6 +295,7 @@ footer{
     text-transform: uppercase;
     padding-top: 30px;
     margin-top: auto;
+    position:relative;
     bottom: 0%;
     width: 100%;
   
