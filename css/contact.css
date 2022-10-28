@@ -71,7 +71,9 @@ body{
 a{
     text-decoration: none;
 }
-
+.googlemaps{
+    margin-left: 450px;
+}
 footer{
     background-color: #272727;
     text-align: center;
